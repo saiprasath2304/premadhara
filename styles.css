@@ -290,9 +290,22 @@ nav {
   content: "03";
 }
 
+.about__content-4 .section__subheader::after {
+  content: "04";
+}
+
 .about__content p {
   margin-bottom: 1.5rem;
   color: var(--text-light);
+}
+
+.footer__bar span a{
+  color: white;
+  size: 15px;
+}
+
+.footer__bar span a:hover{
+  color: var(--secondary-color);
 }
 
 .about__content a {
